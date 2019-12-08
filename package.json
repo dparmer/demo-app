@@ -30,6 +30,7 @@
     "cordova-ios": "5.0.1",
     "cordova-plugin-camera": "~4.1.0",
     "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-ionic": "^5.4.5",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.1.2",
     "cordova-plugin-splashscreen": "^5.0.3",
@@ -78,7 +79,15 @@
         "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+"
       },
       "cordova-plugin-ionic-keyboard": {},
-      "cordova-sqlite-storage": {}
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "61b2721d",
+        "CHANNEL_NAME": "Master",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
+      }
     },
     "platforms": [
       "android",
